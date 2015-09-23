@@ -7,10 +7,10 @@
     <version>1.447</version>
   </parent>
 
-  <artifactId>persona</artifactId>
+  <artifactId>pahom</artifactId>
   <packaging>hpi</packaging>
-  <name>Jenkins Persona Plugin</name>
-  <version>2.5-SNAPSHOT</version>
+  <name>Pahom Jenkins Plugin</name>
+  <version>1.0</version>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Persona+Plugin</url>
 
   <properties>
@@ -18,6 +18,11 @@
   </properties>
   
   <developers>
+    <developer>
+      <id>ruslankorn</id>
+      <name>Ruslan Kornienko</name>
+      <email>ruslan.n.kornienko@gmail.com</email>
+    </developer>
     <developer>
       <id>kohsuke</id>
       <name>Kohsuke Kawaguchi</name>
@@ -31,9 +36,9 @@
   </developers>
 
   <scm>
-   <connection>scm:git:https://github.com/jenkinsci/persona-plugin.git</connection>
-   <developerConnection>scm:git:git@github.com:jenkinsci/persona-plugin.git</developerConnection>
-   <url>https://github.com/jenkinsci/persona-plugin</url>
+   <connection>scm:git:https://github.com/RuslanKorn/pahom-jenkins-plugin.git</connection>
+   <developerConnection>scm:git:git@github.com:RuslanKorn/pahom-jenkins-plugin.git</developerConnection>
+   <url>https://github.com/RuslanKorn/pahom-jenkins-plugin.git</url>
   </scm>
   
   <repositories>
